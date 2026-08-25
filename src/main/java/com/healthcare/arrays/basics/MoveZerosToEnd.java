@@ -1,5 +1,7 @@
 package com.healthcare.arrays.basics;
 
+import com.healthcare.arrays.utils.Utils;
+
 public class MoveZerosToEnd {
     public static int[] moveToEnd(int[] arr){
         int i=0,j=0;
