@@ -1,0 +1,17 @@
+package com.healthcare.arrays.basics;
+
+public class MoveZerosToEnd {
+    public static int[] moveToEnd(int[] arr){
+        int i=0,j=0;
+        while(j < arr.length){
+            if(arr[j] == 0) j++;
+            else {
+                Utils.swap(arr,i,j);
+                i++;
+                j++;
+            }
+
+        }
+        return arr;
+    }
+}
