@@ -1,4 +1,4 @@
-package com.healthcare.arrays.basics;
+package com.healthcare.arrays.utils;
 
 public class Utils {
     public static int[] swap(int[] arr,int i, int j){
