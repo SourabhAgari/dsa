@@ -1,8 +1,6 @@
-package com.healthcare.arrays.basics;
+package com.healthcare.arrays.twopointers;
 
 import com.healthcare.arrays.utils.Utils;
-
-import java.util.Set;
 
 public class RemoveDuplicates {
     public static int[] DuplicatesRemoved(int[] arr){

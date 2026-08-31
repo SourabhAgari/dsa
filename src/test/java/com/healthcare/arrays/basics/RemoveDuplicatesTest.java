@@ -1,5 +1,6 @@
 package com.healthcare.arrays.basics;
 
+import com.healthcare.arrays.twopointers.RemoveDuplicates;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
