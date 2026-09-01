@@ -1,5 +1,27 @@
 package com.healthcare.arrays.slidingwindow;
 
+/**
+ * Problem Statement:
+ *
+ * Given an integer array arr and an integer k, find the maximum sum
+ * of any contiguous subarray of exactly k elements.
+ *
+ * Example:
+ * arr = [2, 1, 5, 1, 3, 2]
+ * k = 3
+ *
+ * Subarrays of size 3:
+ * [2, 1, 5] -> sum = 8
+ * [1, 5, 1] -> sum = 7
+ * [5, 1, 3] -> sum = 9
+ * [1, 3, 2] -> sum = 6
+ *
+ * Output:
+ * 9
+ *
+ * Approach:
+ * Use a fixed-size sliding window of size k.
+ */
 public class MaximumSumSubArrayK {
     public static int getMaxSubArray(int[] arr,int k){
         int maxSum = Integer.MIN_VALUE, sum = 0;
