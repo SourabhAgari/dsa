@@ -3,6 +3,10 @@ package com.healthcare.arrays.slidingwindow;
 import java.util.HashMap;
 import java.util.Map;
 
+
+// note : atmost and atleast slight variation
+// <= means atmost
+// >= means atleast
 public class longestSubarrayWithKDistinct {
     public static int getLongestSubarrayWithKDistinct(int[] arr, int k){
         int left = 0, maxSum = Integer.MIN_VALUE;
