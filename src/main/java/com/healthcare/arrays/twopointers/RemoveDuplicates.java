@@ -1,6 +1,6 @@
 package com.healthcare.arrays.twopointers;
 
-import com.healthcare.arrays.utils.Utils;
+import com.healthcare.utils.Utils;
 
 public class RemoveDuplicates {
     public static int[] DuplicatesRemoved(int[] arr){

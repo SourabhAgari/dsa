@@ -1,6 +1,6 @@
 package com.healthcare.arrays.twopointers;
 
-import com.healthcare.arrays.utils.Utils;
+import com.healthcare.utils.Utils;
 
 public class SortColors {
     public static int[] sortColors(int[] nums){

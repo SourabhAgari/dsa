@@ -1,6 +1,6 @@
 package com.healthcare.arrays.basics;
 
-import com.healthcare.arrays.utils.Utils;
+import com.healthcare.utils.Utils;
 
 public class MoveZerosToEnd {
     public static int[] moveToEnd(int[] arr){
